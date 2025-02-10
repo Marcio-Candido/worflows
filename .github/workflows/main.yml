@@ -28,5 +28,5 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add imagens/
           git commit -m "Atualização" || echo "Nenhuma alteração para commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/seu-usuario/seu-repositorio.git
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Marcio-Candido/workflows.git
        
