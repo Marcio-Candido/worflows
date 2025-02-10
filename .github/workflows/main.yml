@@ -18,6 +18,9 @@ jobs:
 
       - name: Executar script
         run: python scr/script.py  # Substitua pelo nome correto do arquivo
+      
+      - name: Verificar status do Git
+        run: git status
 
       - name: Commit e push dos gráficos gerados
         run: |
