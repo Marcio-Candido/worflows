@@ -7,4 +7,4 @@ numero = int(numero)
 numero = numero + 1 
 print(f"a soma é {numero}")
 with open(arq,'w') as f:
-  f.wite(numero)
+  f.write(numero)
