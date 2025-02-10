@@ -5,7 +5,6 @@ with open(arq,'r') as f:
   f.close()
 numero = int(numero)
 numero = numero + 1 
-print(numero)
+print(f"a soma é {numero}")
 with open(arq,'w') as f:
-  print(numero,f)
-  f.close()
+  f.wite(numero)
