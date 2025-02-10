@@ -3,5 +3,5 @@ arq = 'imagens/data.txt'
 with open(arq,'r') as f:
   numero = f.read()
 numero = int(numero)
-with open(arq,'w') as f:
-  print(numero+1,f)
+with open(arq,'w') as f2:
+  print(numero+1,f2)
