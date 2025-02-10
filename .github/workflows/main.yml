@@ -14,7 +14,7 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.6'
+          python-version: '3.6.12'
 
       - name: Executar script
         run: python scr/script.py  # Substitua pelo nome correto do arquivo
