@@ -1,4 +1,4 @@
-arq = '/imagens/data.txt'
+arq = 'imagens/data.txt'
 # lendo o arquivo
 with open(arq,'r') as f
   numero = f.read()
