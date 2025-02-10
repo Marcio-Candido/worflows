@@ -21,8 +21,8 @@ jobs:
 
       - name: Commit e push dos gráficos gerados
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.Marcio-Candido "github-actions"
+          git config --global user.moc.candido@gmail.com "github-actions@github.com"
           git add imagens/
           git commit -m "Atualização" || echo "Nenhuma alteração para commit"
           git push
